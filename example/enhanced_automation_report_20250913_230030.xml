@@ -1,0 +1,455 @@
+<?xml version="1.0" ?>
+<TestAutomationReport generated="2025-09-13 23:00:30" project="C:\Users\mithi\Desktop\AI Projects S3CloudHub\practice\example" timestamp="20250913_230030">
+  <!-- ==================== PROJECT ANALYSIS ==================== -->
+  <ProjectStructureAnalysis>
+    <SourceFiles>1</SourceFiles>
+    <FunctionsDiscovered>7</FunctionsDiscovered>
+  </ProjectStructureAnalysis>
+
+  <EnhancedFunctionSelection>
+    <TotalFunctions>7</TotalFunctions>
+    <SelectedForTesting>7</SelectedForTesting>
+    <SelectionMode>forced_all</SelectionMode>
+  </EnhancedFunctionSelection>
+
+  <!-- ==================== TEST GENERATION ==================== -->
+  <AITestGeneration>
+    <Status>success</Status>
+    <GeneratedTests>1</GeneratedTests>
+    <SavedTests>
+      <TestFile>test_generated.py</TestFile>
+    </SavedTests>
+  </AITestGeneration>
+
+  <!-- ==================== DETAILED TEST CASES ==================== -->
+  <DetailedTestCases>
+    <TotalTestCases>7</TotalTestCases>
+    <TotalTestFiles>1</TotalTestFiles>
+    <TestFilesSummary>
+      <TestFile name="test_generated.py">
+        <TestClasses>2</TestClasses>
+        <TestMethods>7</TestMethods>
+        <FunctionsTested>add, divide, init, subtract, multiply, get_value, add_to_value</FunctionsTested>
+      </TestFile>
+    </TestFilesSummary>
+    <TestCasesList>
+      <TestCase number="1" result="PASS">
+        <TestMethodName>test_add</TestMethodName>
+        <TargetFunction>add</TargetFunction>
+        <TestFile>test_generated.py</TestFile>
+        <Description>Test the add function with normal and edge cases.</Description>
+        <LineRange>7-11</LineRange>
+        <TestClass>TestMathFunctions</TestClass>
+        <TestClassDescription>Tests for the basic arithmetic functions.</TestClassDescription>
+      </TestCase>
+
+      <TestCase number="2" result="PASS">
+        <TestMethodName>test_subtract</TestMethodName>
+        <TargetFunction>subtract</TargetFunction>
+        <TestFile>test_generated.py</TestFile>
+        <Description>Test the subtract function with normal and edge cases.</Description>
+        <LineRange>13-17</LineRange>
+        <TestClass>TestMathFunctions</TestClass>
+        <TestClassDescription>Tests for the basic arithmetic functions.</TestClassDescription>
+      </TestCase>
+
+      <TestCase number="3" result="PASS">
+        <TestMethodName>test_multiply</TestMethodName>
+        <TargetFunction>multiply</TargetFunction>
+        <TestFile>test_generated.py</TestFile>
+        <Description>Test the multiply function with normal and edge cases.</Description>
+        <LineRange>19-23</LineRange>
+        <TestClass>TestMathFunctions</TestClass>
+        <TestClassDescription>Tests for the basic arithmetic functions.</TestClassDescription>
+      </TestCase>
+
+      <TestCase number="4" result="PASS">
+        <TestMethodName>test_divide</TestMethodName>
+        <TargetFunction>divide</TargetFunction>
+        <TestFile>test_generated.py</TestFile>
+        <Description>Test the divide function with normal, edge cases, and division by zero.</Description>
+        <LineRange>25-30</LineRange>
+        <TestClass>TestMathFunctions</TestClass>
+        <TestClassDescription>Tests for the basic arithmetic functions.</TestClassDescription>
+      </TestCase>
+
+      <TestCase number="5" result="PASS">
+        <TestMethodName>test_init</TestMethodName>
+        <TargetFunction>init</TargetFunction>
+        <TestFile>test_generated.py</TestFile>
+        <Description>Test the initialization of the Calculator class.</Description>
+        <LineRange>35-40</LineRange>
+        <TestClass>TestCalculator</TestClass>
+        <TestClassDescription>Tests for the Calculator class.</TestClassDescription>
+      </TestCase>
+
+      <TestCase number="6" result="PASS">
+        <TestMethodName>test_add_to_value</TestMethodName>
+        <TargetFunction>add_to_value</TargetFunction>
+        <TestFile>test_generated.py</TestFile>
+        <Description>Test the add_to_value method of the Calculator class.</Description>
+        <LineRange>42-48</LineRange>
+        <TestClass>TestCalculator</TestClass>
+        <TestClassDescription>Tests for the Calculator class.</TestClassDescription>
+      </TestCase>
+
+      <TestCase number="7" result="PASS">
+        <TestMethodName>test_get_value</TestMethodName>
+        <TargetFunction>get_value</TargetFunction>
+        <TestFile>test_generated.py</TestFile>
+        <Description>Test the get_value method of the Calculator class.</Description>
+        <LineRange>50-55</LineRange>
+        <TestClass>TestCalculator</TestClass>
+        <TestClassDescription>Tests for the Calculator class.</TestClassDescription>
+      </TestCase>
+
+    </TestCasesList>
+  </DetailedTestCases>
+
+  <!-- ==================== TEST EXECUTION RESULTS ==================== -->
+  <TestExecutionResults>
+    <TotalTests>1</TotalTests>
+    <Passed>1</Passed>
+    <Failed>0</Failed>
+    <SuccessRate>100.0%</SuccessRate>
+    <ExecutionDetails>
+      <Test name="test_generated.py" result="PASS">
+        <TestOutput>
+STDERR:
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+OK
+</TestOutput>
+      </Test>
+    </ExecutionDetails>
+  </TestExecutionResults>
+
+  <!-- ==================== COVERAGE ANALYSIS ==================== -->
+  <CoverageAnalysis>
+    <Status>Coverage tools (coverage.py) not found.</Status>
+  </CoverageAnalysis>
+
+  <!-- ==================== STRUCTURED TEST EXECUTION LOG ==================== -->
+  <TestExecutionLog xmlns="http://testautomation.com/schema" version="1.0">
+    <ExecutionInfo>
+      <StartTime>2025-09-13T23:00:25.329098Z</StartTime>
+      <EndTime>2025-09-13T23:00:30.637061Z</EndTime>
+      <Status>PASS</Status>
+      <BuildVersion>1.0.0</BuildVersion>
+      <ExecutedBy>automation.system</ExecutedBy>
+      <ProjectPath>C:\Users\mithi\Desktop\AI Projects S3CloudHub\practice\example</ProjectPath>
+    </ExecutionInfo>
+    <TestCycle>
+      <Id>202509132300</Id>
+      <Name>AI Test Generation Cycle - September 2025</Name>
+      <Type>Automated</Type>
+    </TestCycle>
+    <TestCase>
+      <Id>1</Id>
+      <Name>test_add</Name>
+      <AutomationContent>test_generated.py.test_add</AutomationContent>
+      <TargetFunction>add</TargetFunction>
+      <Description>Test the add function with normal and edge cases.</Description>
+      <Status>PASS</Status>
+      <Steps>
+        <Step>
+          <Name>Test Environment Setup</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638273Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638281Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Import and prepare add function</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638283Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638285Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Execute test assertions for add</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638287Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638288Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Test Cleanup and Validation</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638290Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638291Z</EndTime>
+        </Step>
+      </Steps>
+    </TestCase>
+
+    <TestCase>
+      <Id>2</Id>
+      <Name>test_subtract</Name>
+      <AutomationContent>test_generated.py.test_subtract</AutomationContent>
+      <TargetFunction>subtract</TargetFunction>
+      <Description>Test the subtract function with normal and edge cases.</Description>
+      <Status>PASS</Status>
+      <Steps>
+        <Step>
+          <Name>Test Environment Setup</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638298Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638300Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Import and prepare subtract function</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638302Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638304Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Execute test assertions for subtract</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638306Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638307Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Test Cleanup and Validation</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638310Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638311Z</EndTime>
+        </Step>
+      </Steps>
+    </TestCase>
+
+    <TestCase>
+      <Id>3</Id>
+      <Name>test_multiply</Name>
+      <AutomationContent>test_generated.py.test_multiply</AutomationContent>
+      <TargetFunction>multiply</TargetFunction>
+      <Description>Test the multiply function with normal and edge cases.</Description>
+      <Status>PASS</Status>
+      <Steps>
+        <Step>
+          <Name>Test Environment Setup</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638315Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638317Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Import and prepare multiply function</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638319Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638320Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Execute test assertions for multiply</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638321Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638323Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Test Cleanup and Validation</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638324Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638325Z</EndTime>
+        </Step>
+      </Steps>
+    </TestCase>
+
+    <TestCase>
+      <Id>4</Id>
+      <Name>test_divide</Name>
+      <AutomationContent>test_generated.py.test_divide</AutomationContent>
+      <TargetFunction>divide</TargetFunction>
+      <Description>Test the divide function with normal, edge cases, and division by zero.</Description>
+      <Status>PASS</Status>
+      <Steps>
+        <Step>
+          <Name>Test Environment Setup</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638329Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638330Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Import and prepare divide function</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638332Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638333Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Execute test assertions for divide</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638335Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638336Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Test Cleanup and Validation</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638337Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638338Z</EndTime>
+        </Step>
+      </Steps>
+    </TestCase>
+
+    <TestCase>
+      <Id>5</Id>
+      <Name>test_init</Name>
+      <AutomationContent>test_generated.py.test_init</AutomationContent>
+      <TargetFunction>init</TargetFunction>
+      <Description>Test the initialization of the Calculator class.</Description>
+      <Status>PASS</Status>
+      <Steps>
+        <Step>
+          <Name>Test Environment Setup</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638343Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638344Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Import and prepare init function</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638346Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638347Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Execute test assertions for init</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638349Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638350Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Test Cleanup and Validation</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638352Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638355Z</EndTime>
+        </Step>
+      </Steps>
+    </TestCase>
+
+    <TestCase>
+      <Id>6</Id>
+      <Name>test_add_to_value</Name>
+      <AutomationContent>test_generated.py.test_add_to_value</AutomationContent>
+      <TargetFunction>add_to_value</TargetFunction>
+      <Description>Test the add_to_value method of the Calculator class.</Description>
+      <Status>PASS</Status>
+      <Steps>
+        <Step>
+          <Name>Test Environment Setup</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638359Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638360Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Import and prepare add_to_value function</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638362Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638363Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Execute test assertions for add_to_value</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638365Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638366Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Test Cleanup and Validation</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638367Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638369Z</EndTime>
+        </Step>
+      </Steps>
+    </TestCase>
+
+    <TestCase>
+      <Id>7</Id>
+      <Name>test_get_value</Name>
+      <AutomationContent>test_generated.py.test_get_value</AutomationContent>
+      <TargetFunction>get_value</TargetFunction>
+      <Description>Test the get_value method of the Calculator class.</Description>
+      <Status>PASS</Status>
+      <Steps>
+        <Step>
+          <Name>Test Environment Setup</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638378Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638379Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Import and prepare get_value function</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638381Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638382Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Execute test assertions for get_value</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638383Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638385Z</EndTime>
+        </Step>
+        <Step>
+          <Name>Test Cleanup and Validation</Name>
+          <Status>PASS</Status>
+          <StartTime>2025-09-13T23:00:30.638386Z</StartTime>
+          <EndTime>2025-09-13T23:00:30.638387Z</EndTime>
+        </Step>
+      </Steps>
+    </TestCase>
+
+    <Attachments>
+      <Attachment>
+        <Name>automation_report.xml</Name>
+        <Type>application/xml</Type>
+        <Path>/reports/xml/enhanced_automation_report_20250913_230030.xml</Path>
+      </Attachment>
+      <Attachment>
+        <Name>test_generated.py</Name>
+        <Type>text/x-python</Type>
+        <Path>C:\Users\mithi\Desktop\AI Projects S3CloudHub\practice\example\tests\test_generated.py</Path>
+      </Attachment>
+      <Attachment>
+        <Name>terminal_execution.log</Name>
+        <Type>text/plain</Type>
+        <Path>/reports/logs/terminal_execution.log</Path>
+      </Attachment>
+    </Attachments>
+  </TestExecutionLog>
+  <!-- ==================== COMPLETE TESTING LOGS ==================== -->
+  <TestingLogs format="raw">
+    <LogCount>20</LogCount>
+    <RawExecutionLogs>🚀 ENHANCED AUTOMATION MODE: Starting comprehensive testing pipeline
+============================================================
+PHASE 1: PROJECT STRUCTURE ANALYSIS
+============================================================
+============================================================
+PHASE 2: ENHANCED FUNCTION SELECTION
+============================================================
+⚠️  No git changes detected - FORCING COMPREHENSIVE TESTING OF ALL FUNCTIONS
+🎯 Selected 7 functions for testing
+   1. add (complexity: 1)
+   2. subtract (complexity: 1)
+   3. multiply (complexity: 1)
+   4. divide (complexity: 2)
+   5. __init__ (complexity: 1)
+   6. add_to_value (complexity: 1)
+   7. get_value (complexity: 1)
+============================================================
+PHASE 3: AI-POWERED TEST GENERATION
+============================================================
+✅ Generated and formatted: test_generated.py
+✅ Successfully generated 1 test files
+============================================================
+PHASE 4: AUTOMATED TEST EXECUTION
+============================================================
+✅ Test execution completed: 1/1 tests passed
+============================================================
+PHASE 5: COVERAGE ANALYSIS
+============================================================
+⚠️  Coverage analysis completed with limited data
+============================================================
+AUTOMATION COMPLETE - GENERATING REPORT
+============================================================</RawExecutionLogs>
+  </TestingLogs>
+
+  <!-- ==================== AUTOMATION SUMMARY ==================== -->
+  <AutomationSummary>
+    <Status>Success</Status>
+    <SuccessfulPhases>4/5</SuccessfulPhases>
+    <OverallTestSuccessRate>100.0%</OverallTestSuccessRate>
+  </AutomationSummary>
+
+</TestAutomationReport>

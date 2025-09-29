@@ -1,0 +1,107 @@
+2025-09-15 17:32:29 [INFO] ================================================================================
+2025-09-15 17:32:29 [INFO] PYTHON PROJECT TEST AUTOMATION - SESSION STARTED
+2025-09-15 17:32:29 [INFO] ================================================================================
+2025-09-15 17:32:29 [INFO] Project Root: C:\Users\mithi\Desktop\AI Projects S3CloudHub\practice\example
+2025-09-15 17:32:29 [INFO] Test Directory: C:\Users\mithi\Desktop\AI Projects S3CloudHub\practice\example\tests
+2025-09-15 17:32:29 [INFO] Force All Tests: True
+2025-09-15 17:32:29 [INFO] GitHub Repository: False
+2025-09-15 17:32:29 [INFO] ================================================================================
+2025-09-15 17:32:29 [INFO] ENHANCED AUTOMATION MODE: Starting comprehensive testing pipeline
+2025-09-15 17:32:29 [INFO] ============================================================
+PHASE 1: PROJECT STRUCTURE ANALYSIS
+============================================================
+2025-09-15 17:32:29 [INFO] ============================================================
+PHASE 2: ENHANCED FUNCTION SELECTION
+============================================================
+2025-09-15 17:32:29 [INFO] No git changes detected - FORCING COMPREHENSIVE TESTING OF ALL FUNCTIONS
+2025-09-15 17:32:29 [INFO] 🎯 Selected 7 functions for testing
+2025-09-15 17:32:29 [INFO] 1. add (complexity: 1)
+2025-09-15 17:32:29 [INFO] 2. subtract (complexity: 1)
+2025-09-15 17:32:29 [INFO] 3. multiply (complexity: 1)
+2025-09-15 17:32:29 [INFO] 4. divide (complexity: 2)
+2025-09-15 17:32:29 [INFO] 5. __init__ (complexity: 1)
+2025-09-15 17:32:29 [INFO] 6. add_to_value (complexity: 1)
+2025-09-15 17:32:29 [INFO] 7. get_value (complexity: 1)
+2025-09-15 17:32:29 [INFO] ============================================================
+PHASE 3: AI-POWERED TEST GENERATION
+============================================================
+2025-09-15 17:32:36 [INFO] Generated and formatted: test_generated.py
+2025-09-15 17:32:36 [INFO] Successfully generated 1 test files
+2025-09-15 17:32:36 [INFO] ============================================================
+PHASE 4: AUTOMATED TEST EXECUTION
+============================================================
+2025-09-15 17:32:36 [INFO] ------------------------------------------------------------
+2025-09-15 17:32:36 [INFO] STARTING TEST EXECUTION PHASE
+2025-09-15 17:32:36 [INFO] ------------------------------------------------------------
+2025-09-15 17:32:36 [INFO] Total test files to execute: 1
+2025-09-15 17:32:36 [INFO] Executing test file: test_generated.py
+2025-09-15 17:32:36 [INFO] Starting test execution: test_generated.py
+2025-09-15 17:32:36 [INFO] Test file path: C:\Users\mithi\Desktop\AI Projects S3CloudHub\practice\example\tests\test_generated.py
+2025-09-15 17:32:36 [INFO] Test execution attempt 1 for test_generated.py
+2025-09-15 17:32:36 [INFO] Test execution successful for test_generated.py
+2025-09-15 17:32:36 [INFO] Test PASSED: test_generated.py
+2025-09-15 17:32:36 [INFO] Test output for test_generated.py:
+
+STDERR:
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
+
+2025-09-15 17:32:36 [INFO] ----------------------------------------
+2025-09-15 17:32:36 [INFO] TEST EXECUTION SUMMARY
+2025-09-15 17:32:36 [INFO] ----------------------------------------
+2025-09-15 17:32:36 [INFO] Total Tests: 1
+2025-09-15 17:32:36 [INFO] Passed: 1
+2025-09-15 17:32:36 [INFO] Failed: 0
+2025-09-15 17:32:36 [INFO] Success Rate: 100.0%
+2025-09-15 17:32:36 [INFO] ----------------------------------------
+2025-09-15 17:32:36 [INFO] Test execution completed: 1/1 tests passed
+2025-09-15 17:32:36 [INFO] ============================================================
+PHASE 5: COVERAGE ANALYSIS
+============================================================
+2025-09-15 17:32:36 [INFO] Coverage analysis completed with limited data
+2025-09-15 17:32:36 [INFO] ============================================================
+AUTOMATION COMPLETE - GENERATING REPORT
+============================================================
+2025-09-15 17:32:36 [INFO] Generating detailed test execution logs
+2025-09-15 17:32:36 [INFO] 2025-09-15 17:32:36  [INFO]  ===== Starting Test Suite: AI Generated Tests =====
+2025-09-15 17:32:36 [INFO] Detailed Log: 2025-09-15 17:32:37  [INFO]  Running test: test_add
+2025-09-15 17:32:36 [INFO] Detailed Log: 2025-09-15 17:32:38  [INFO]  Running test: test_subtract
+2025-09-15 17:32:36 [INFO] Detailed Log: 2025-09-15 17:32:39  [INFO]  Running test: test_multiply
+2025-09-15 17:32:36 [INFO] Detailed Log: 2025-09-15 17:32:40  [INFO]  Running test: test_divide
+2025-09-15 17:32:36 [INFO] Detailed Log: 2025-09-15 17:32:41  [INFO]  Running test: test_init
+2025-09-15 17:32:36 [INFO] Detailed Log: 2025-09-15 17:32:42  [INFO]  Running test: test_add_to_value
+2025-09-15 17:32:36 [INFO] Detailed Log: 2025-09-15 17:32:43  [INFO]  Running test: test_get_value
+2025-09-15 17:32:36 [INFO] 2025-09-15 17:32:48  [INFO]  ===== Test Suite Completed =====
+2025-09-15 17:32:36 [INFO] 2025-09-15 17:32:48  [INFO]  Total: 7, Passed: 7, Failed: 0
+2025-09-15 17:32:36 [INFO] 2025-09-15 17:32:48  [INFO]  All tests PASSED! ✅
+2025-09-15 17:32:36 [INFO] Detailed test execution logs generation completed
+2025-09-15 17:32:36 [INFO] Generating detailed test execution logs
+2025-09-15 17:32:36 [INFO] 2025-09-15 17:32:36  [INFO]  ===== Starting Test Suite: AI Generated Tests =====
+2025-09-15 17:32:36 [INFO] Detailed Log: 2025-09-15 17:32:37  [INFO]  Running test: test_add
+2025-09-15 17:32:36 [INFO] Detailed Log: 2025-09-15 17:32:38  [INFO]  Running test: test_subtract
+2025-09-15 17:32:36 [INFO] Detailed Log: 2025-09-15 17:32:39  [INFO]  Running test: test_multiply
+2025-09-15 17:32:36 [INFO] Detailed Log: 2025-09-15 17:32:40  [INFO]  Running test: test_divide
+2025-09-15 17:32:36 [INFO] Detailed Log: 2025-09-15 17:32:41  [INFO]  Running test: test_init
+2025-09-15 17:32:36 [INFO] Detailed Log: 2025-09-15 17:32:42  [INFO]  Running test: test_add_to_value
+2025-09-15 17:32:36 [INFO] Detailed Log: 2025-09-15 17:32:43  [INFO]  Running test: test_get_value
+2025-09-15 17:32:36 [INFO] 2025-09-15 17:32:48  [INFO]  ===== Test Suite Completed =====
+2025-09-15 17:32:36 [INFO] 2025-09-15 17:32:48  [INFO]  Total: 7, Passed: 7, Failed: 0
+2025-09-15 17:32:36 [INFO] 2025-09-15 17:32:48  [INFO]  All tests PASSED! ✅
+2025-09-15 17:32:36 [INFO] Detailed test execution logs generation completed
+2025-09-15 17:32:45 [INFO] 🎉 ENHANCED AUTOMATION COMPLETED SUCCESSFULLY!
+2025-09-15 17:32:45 [INFO] 🌟 Test success rate: 100.0%
+2025-09-15 17:32:45 [INFO] Full report available in XML format: enhanced_automation_report_20250915_173236.xml
+2025-09-15 17:32:45 [INFO] Detailed logs available in: C:\Users\mithi\Desktop\AI Projects S3CloudHub\practice\example\logs\test_execution_20250915_173229.log
+2025-09-15 17:32:45 [INFO] ============================================================
+2025-09-15 17:32:45 [INFO] AUTOMATION COMPLETED SUCCESSFULLY
+2025-09-15 17:32:45 [INFO] ============================================================
+2025-09-15 17:32:45 [INFO] XML Report: enhanced_automation_report_20250915_173236.xml
+2025-09-15 17:32:45 [INFO] Log File: C:\Users\mithi\Desktop\AI Projects S3CloudHub\practice\example\logs\test_execution_20250915_173229.log
+2025-09-15 17:32:45 [INFO] Final Test Success Rate: 100.0%
+2025-09-15 17:32:45 [INFO] ============================================================
+2025-09-15 17:32:45 [INFO] ================================================================================
+2025-09-15 17:32:45 [INFO] PYTHON PROJECT TEST AUTOMATION - SESSION COMPLETED
+2025-09-15 17:32:45 [INFO] ================================================================================

@@ -1,0 +1,215 @@
+<?xml version="1.0" ?>
+<TestAutomationReport generated="2025-09-13 22:07:27" project="C:\Users\mithi\Desktop\AI Projects S3CloudHub\practice\example" timestamp="20250913_220727">
+  <!-- ==================== PROJECT ANALYSIS ==================== -->
+  <ProjectStructureAnalysis>
+    <SourceFiles>1</SourceFiles>
+    <FunctionsDiscovered>7</FunctionsDiscovered>
+  </ProjectStructureAnalysis>
+
+  <EnhancedFunctionSelection>
+    <TotalFunctions>7</TotalFunctions>
+    <SelectedForTesting>7</SelectedForTesting>
+    <SelectionMode>forced_all</SelectionMode>
+  </EnhancedFunctionSelection>
+
+  <!-- ==================== TEST GENERATION ==================== -->
+  <AITestGeneration>
+    <Status>success</Status>
+    <GeneratedTests>1</GeneratedTests>
+    <SavedTests>
+      <TestFile>test_generated.py</TestFile>
+    </SavedTests>
+  </AITestGeneration>
+
+  <!-- ==================== DETAILED TEST CASES ==================== -->
+  <DetailedTestCases>
+    <TotalTestCases>7</TotalTestCases>
+    <TotalTestFiles>1</TotalTestFiles>
+    <TestFilesSummary>
+      <TestFile name="test_generated.py">
+        <TestClasses>2</TestClasses>
+        <TestMethods>7</TestMethods>
+        <FunctionsTested>divide, add, multiply, subtract, init, add_to_value, get_value</FunctionsTested>
+      </TestFile>
+    </TestFilesSummary>
+    <TestCasesList>
+      <TestCase number="1" result="PASS">
+        <TestMethodName>test_add</TestMethodName>
+        <TargetFunction>add</TargetFunction>
+        <TestFile>test_generated.py</TestFile>
+        <Description>Test the add function with normal and edge cases.</Description>
+        <LineRange>7-11</LineRange>
+        <TestClass>TestMathFunctions</TestClass>
+        <TestClassDescription>Tests for the basic arithmetic functions.</TestClassDescription>
+      </TestCase>
+
+      <TestCase number="2" result="PASS">
+        <TestMethodName>test_subtract</TestMethodName>
+        <TargetFunction>subtract</TargetFunction>
+        <TestFile>test_generated.py</TestFile>
+        <Description>Test the subtract function with normal and edge cases.</Description>
+        <LineRange>13-17</LineRange>
+        <TestClass>TestMathFunctions</TestClass>
+        <TestClassDescription>Tests for the basic arithmetic functions.</TestClassDescription>
+      </TestCase>
+
+      <TestCase number="3" result="PASS">
+        <TestMethodName>test_multiply</TestMethodName>
+        <TargetFunction>multiply</TargetFunction>
+        <TestFile>test_generated.py</TestFile>
+        <Description>Test the multiply function with normal and edge cases.</Description>
+        <LineRange>19-23</LineRange>
+        <TestClass>TestMathFunctions</TestClass>
+        <TestClassDescription>Tests for the basic arithmetic functions.</TestClassDescription>
+      </TestCase>
+
+      <TestCase number="4" result="PASS">
+        <TestMethodName>test_divide</TestMethodName>
+        <TargetFunction>divide</TargetFunction>
+        <TestFile>test_generated.py</TestFile>
+        <Description>Test the divide function with normal, edge cases, and division by zero.</Description>
+        <LineRange>25-31</LineRange>
+        <TestClass>TestMathFunctions</TestClass>
+        <TestClassDescription>Tests for the basic arithmetic functions.</TestClassDescription>
+      </TestCase>
+
+      <TestCase number="5" result="PASS">
+        <TestMethodName>test_init</TestMethodName>
+        <TargetFunction>init</TargetFunction>
+        <TestFile>test_generated.py</TestFile>
+        <Description>Test the initialization of the Calculator class.</Description>
+        <LineRange>36-41</LineRange>
+        <TestClass>TestCalculator</TestClass>
+        <TestClassDescription>Tests for the Calculator class.</TestClassDescription>
+      </TestCase>
+
+      <TestCase number="6" result="PASS">
+        <TestMethodName>test_add_to_value</TestMethodName>
+        <TargetFunction>add_to_value</TargetFunction>
+        <TestFile>test_generated.py</TestFile>
+        <Description>Test the add_to_value method of the Calculator class.</Description>
+        <LineRange>43-49</LineRange>
+        <TestClass>TestCalculator</TestClass>
+        <TestClassDescription>Tests for the Calculator class.</TestClassDescription>
+      </TestCase>
+
+      <TestCase number="7" result="PASS">
+        <TestMethodName>test_get_value</TestMethodName>
+        <TargetFunction>get_value</TargetFunction>
+        <TestFile>test_generated.py</TestFile>
+        <Description>Test the get_value method of the Calculator class.</Description>
+        <LineRange>51-56</LineRange>
+        <TestClass>TestCalculator</TestClass>
+        <TestClassDescription>Tests for the Calculator class.</TestClassDescription>
+      </TestCase>
+
+    </TestCasesList>
+  </DetailedTestCases>
+
+  <!-- ==================== TEST EXECUTION RESULTS ==================== -->
+  <TestExecutionResults>
+    <TotalTests>1</TotalTests>
+    <Passed>1</Passed>
+    <Failed>0</Failed>
+    <SuccessRate>100.0%</SuccessRate>
+    <ExecutionDetails>
+      <Test name="test_generated.py" result="PASS">
+        <TestOutput>
+STDERR:
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+OK
+</TestOutput>
+      </Test>
+    </ExecutionDetails>
+  </TestExecutionResults>
+
+  <!-- ==================== COVERAGE ANALYSIS ==================== -->
+  <CoverageAnalysis>
+    <Status>Coverage tools (coverage.py) not found.</Status>
+  </CoverageAnalysis>
+
+  <!-- ==================== COMPLETE TESTING LOGS ==================== -->
+  <TestingLogs>
+    <LogCount>20</LogCount>
+    <LogEntry sequence="1">🚀 ENHANCED AUTOMATION MODE: Starting comprehensive testing pipeline</LogEntry>
+    <LogEntry sequence="2">
+============================================================
+PHASE 1: PROJECT STRUCTURE ANALYSIS
+============================================================</LogEntry>
+    <LogEntry sequence="3">
+============================================================
+PHASE 2: ENHANCED FUNCTION SELECTION
+============================================================</LogEntry>
+    <LogEntry sequence="4">⚠️  No git changes detected - FORCING COMPREHENSIVE TESTING OF ALL FUNCTIONS</LogEntry>
+    <LogEntry sequence="5">🎯 Selected 7 functions for testing</LogEntry>
+    <LogEntry sequence="6">   1. add (complexity: 1)</LogEntry>
+    <LogEntry sequence="7">   2. subtract (complexity: 1)</LogEntry>
+    <LogEntry sequence="8">   3. multiply (complexity: 1)</LogEntry>
+    <LogEntry sequence="9">   4. divide (complexity: 2)</LogEntry>
+    <LogEntry sequence="10">   5. __init__ (complexity: 1)</LogEntry>
+    <LogEntry sequence="11">   6. add_to_value (complexity: 1)</LogEntry>
+    <LogEntry sequence="12">   7. get_value (complexity: 1)</LogEntry>
+    <LogEntry sequence="13">
+============================================================
+PHASE 3: AI-POWERED TEST GENERATION
+============================================================</LogEntry>
+    <LogEntry sequence="14">✅ Generated and formatted: test_generated.py</LogEntry>
+    <LogEntry sequence="15">✅ Successfully generated 1 test files</LogEntry>
+    <LogEntry sequence="16">
+============================================================
+PHASE 4: AUTOMATED TEST EXECUTION
+============================================================</LogEntry>
+    <LogEntry sequence="17">✅ Test execution completed: 1/1 tests passed</LogEntry>
+    <LogEntry sequence="18">
+============================================================
+PHASE 5: COVERAGE ANALYSIS
+============================================================</LogEntry>
+    <LogEntry sequence="19">⚠️  Coverage analysis completed with limited data</LogEntry>
+    <LogEntry sequence="20">
+============================================================
+AUTOMATION COMPLETE - GENERATING REPORT
+============================================================</LogEntry>
+    <CompleteTerminalOutput>🚀 ENHANCED AUTOMATION MODE: Starting comprehensive testing pipeline
+============================================================
+PHASE 1: PROJECT STRUCTURE ANALYSIS
+============================================================
+============================================================
+PHASE 2: ENHANCED FUNCTION SELECTION
+============================================================
+⚠️  No git changes detected - FORCING COMPREHENSIVE TESTING OF ALL FUNCTIONS
+🎯 Selected 7 functions for testing
+   1. add (complexity: 1)
+   2. subtract (complexity: 1)
+   3. multiply (complexity: 1)
+   4. divide (complexity: 2)
+   5. __init__ (complexity: 1)
+   6. add_to_value (complexity: 1)
+   7. get_value (complexity: 1)
+============================================================
+PHASE 3: AI-POWERED TEST GENERATION
+============================================================
+✅ Generated and formatted: test_generated.py
+✅ Successfully generated 1 test files
+============================================================
+PHASE 4: AUTOMATED TEST EXECUTION
+============================================================
+✅ Test execution completed: 1/1 tests passed
+============================================================
+PHASE 5: COVERAGE ANALYSIS
+============================================================
+⚠️  Coverage analysis completed with limited data
+============================================================
+AUTOMATION COMPLETE - GENERATING REPORT
+============================================================</CompleteTerminalOutput>
+  </TestingLogs>
+
+  <!-- ==================== AUTOMATION SUMMARY ==================== -->
+  <AutomationSummary>
+    <Status>Success</Status>
+    <SuccessfulPhases>4/5</SuccessfulPhases>
+    <OverallTestSuccessRate>100.0%</OverallTestSuccessRate>
+  </AutomationSummary>
+
+</TestAutomationReport>
