@@ -32,7 +32,7 @@ import requests
 
 # --- Configuration ---
 GROQ_MODEL = "llama-3.3-70b-versatile"  # Default Groq model
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "REDACTED_API_KEY")  # Set your Groq API key
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")  # Set your Groq API key in environment variables
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 COVERAGE_THRESHOLD = 0.8
 DEFAULT_TEST_DIR = "tests"
